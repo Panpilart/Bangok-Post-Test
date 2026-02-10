@@ -1,0 +1,38 @@
+@font-face {
+  font-family: 'Garet';
+  src: url('../fonts/Garet-Heavy.eot');
+  src:
+    url('../fonts/Garet-Heavy.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Garet-Heavy.woff2') format('woff2'),
+    url('../fonts/Garet-Heavy.woff') format('woff'),
+    url('../fonts/Garet-Heavy.ttf') format('truetype'),
+    url('../fonts/Garet-Heavy.svg#Garet-Heavy') format('svg');
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Garet Book';
+  src: url('../fonts/Garet-Book.eot');
+  src:
+    url('../fonts/Garet-Book.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Garet-Book.woff2') format('woff2'),
+    url('../fonts/Garet-Book.woff') format('woff'),
+    url('../fonts/Garet-Book.ttf') format('truetype'),
+    url('../fonts/Garet-Book.svg#Garet-Book') format('svg');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Utopia';
+  src: url('../fonts/Utopia-Bold.eot');
+  src:
+    url('../fonts/Utopia-Bold.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Utopia-Bold.woff2') format('woff2'),
+    url('../fonts/Utopia-Bold.woff') format('woff'),
+    url('../fonts/Utopia-Bold.svg#Utopia-Bold') format('svg');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}

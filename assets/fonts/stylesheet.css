@@ -1,0 +1,26 @@
+@font-face {
+    font-family: 'Garet';
+    src: url('Garet-Heavy.eot');
+    src: url('Garet-Heavy.eot?#iefix') format('embedded-opentype'),
+        url('Garet-Heavy.woff2') format('woff2'),
+        url('Garet-Heavy.woff') format('woff'),
+        url('Garet-Heavy.ttf') format('truetype'),
+        url('Garet-Heavy.svg#Garet-Heavy') format('svg');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Garet Book';
+    src: url('Garet-Book.eot');
+    src: url('Garet-Book.eot?#iefix') format('embedded-opentype'),
+        url('Garet-Book.woff2') format('woff2'),
+        url('Garet-Book.woff') format('woff'),
+        url('Garet-Book.ttf') format('truetype'),
+        url('Garet-Book.svg#Garet-Book') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+

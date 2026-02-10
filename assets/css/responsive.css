@@ -1,0 +1,233 @@
+@container (max-width: 800px) {
+  .introduction__inner {
+    grid-template-columns: 1fr;
+  }
+
+  .introduction__image {
+    display: none;
+  }
+
+  .quote--start {
+    inset-inline-start: 0;
+  }
+
+  .quote--end {
+    inset-inline-end: 0;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  .campaign__body {
+    grid-template-columns: 1fr;
+    
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .container{
+    padding-inline: 18px;
+  }
+  .splide__cation h4 {
+    font-size: 22px;
+  }
+  .footer__contact ul{
+    flex-direction: column;
+  }
+  .splide__cation h4 {
+    font-size: 18px;
+    line-height: 20px;
+  }
+  .splide__slide:hover .splide__cation {
+  transform: translateY(-70%);
+  }
+  .giving__foundation-content h3{
+    font-size: 36px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  p{
+  font-size: 18px;
+  line-height: 32px;
+  } 
+  .splide__cation h4 {
+    font-size: 22px;
+  }
+  .splide__slide:hover .splide__cation {
+  transform: translateY(-78%);
+  }
+  .giving__header h2{
+    font-size: 36px;
+  }
+  
+  .giving__foundation {
+    grid-template-columns: 1fr;
+  }
+  .giving__foundation-content {
+    order: -1; 
+  }
+  .giving__foundation-content h3 {
+    font-size: 32px;
+  }
+  .giving__inspiring h2 {
+    font-size: 32px;
+    
+  }
+  .splide__pagination{
+    bottom: -1rem;
+  }
+  .forum__heading{
+    padding-inline: 10px;
+  }
+  .forum__heading h2{
+    font-size: 36px;
+  }
+
+  .join-us__content h4{
+    font-size: 30px;
+    line-height: 36px;
+    margin-bottom: 20px;
+  }
+  .hero__content h2{
+    margin-bottom: 20px;
+  }
+  .hero__list {
+    text-align: left;
+  }
+  .campaign__rules h3,
+  .promo__header h2,
+  .promo__footer h3  {
+    font-size: 36px;
+  }
+  .campaign__rules li {
+    text-align: left;
+  }
+  .promo__footer{
+    flex-direction: column;
+  }
+  .tabs__title{
+    display: block;
+    padding-inline: 15px !important;
+  }
+  .tabs__panel.is-open .tabs__title{
+    background-color: var(--color-tertiary);
+  }
+  .tabs__panel.is-open .donate__grid{
+    padding: 20px;
+  }
+  .donate__title{
+    font-size: 36px;
+    line-height: 40px;
+  }
+  .donate{
+    padding-top: 40px;
+  }
+  .donate__desc{
+    font-size: 20px;
+    margin-top: 16px;
+  }
+  /* ซ่อน tab nav */
+  .tabs__nav {
+    display: none;
+  }
+
+  /* panel แสดงทั้งหมดเป็น block */
+  .tabs__panel {
+    display: block !important;
+    padding: 0;
+    border-bottom: 1px solid #e5e5e5;
+  }
+
+  /* ===== Accordion Title ===== */
+  .tabs__title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 18px 0;
+    font-size: 20px;
+    font-weight: 600;
+    color: #0f65ca;
+    cursor: pointer;
+    position: relative;
+  }
+
+  /* ลูกศร */
+  .tabs__title::after {
+    content: '';
+    width: 10px;
+    height: 10px;
+    border-right: 2px solid currentColor;
+    border-bottom: 2px solid currentColor;
+    transform: rotate(45deg);
+    transition: transform 0.3s ease;
+  }
+
+  /* หมุนลูกศรเมื่อเปิด */
+  .tabs__panel.is-open .tabs__title::after {
+    transform: rotate(-135deg);
+  }
+
+  /* ===== Accordion Content ===== */
+  .donate__grid {
+    overflow: hidden;
+    max-height: 0;
+    opacity: 0;
+    transition:
+      max-height 0.4s ease,
+      opacity 0.3s ease;
+  }
+
+  .tabs__panel.is-open .donate__grid {
+    max-height: 1000px; /* กัน overflow */
+    opacity: 1;
+    padding-bottom: 24px;
+  }
+  .join-us__content{
+    width: 90%;
+  }
+  .contact-form__choose{
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 0;
+  }
+
+  .campaign__hero-inner {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+  .hero__list{
+    width: 100%;
+  }
+  .campaign__body {
+    grid-template-columns: 1fr;
+  }
+
+  /* footer */
+  .footer__content{
+    flex-direction: column;
+    row-gap: 20px;
+  }
+  
+}
+@media only screen and (max-width: 550px) {
+  .slot-machine{
+    min-width: inherit;
+    background-image: none;
+    padding-block: 40px;
+    aspect-ratio: inherit;
+  }
+  .reels{
+    position: relative;
+    left: 0;
+    right: 0;
+    top: inherit;
+    
+  }
+  .controls{
+    position: relative;
+    bottom: inherit;
+    left: inherit; 
+    transform: inherit;
+    margin-top: 30px;
+  }
+}
+
+
