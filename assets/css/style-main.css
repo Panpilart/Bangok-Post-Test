@@ -496,8 +496,8 @@ p {
   display: flex;
   flex-direction: column;
   padding-block: 60px;
-  background: url(/assets/images/bg-livemessage.jpg) no-repeat;
-  background-size: cover;
+  background: url(../images/bg-livemessage.jpg) no-repeat;
+  background-position: center;
 }
 .join-us__content {
   width: 60%;
