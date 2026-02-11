@@ -1218,7 +1218,7 @@ input:focus {
   position: relative;
   width: 100%;
   aspect-ratio: 1 / 1;                 /* คุมสัดส่วนตู้ */
-  background: url("/assets/images/bg_slot.png") top / contain no-repeat;
+  background: url("../images/bg_slot.png") top / contain no-repeat;
 }
 
 .reels {
